@@ -1,0 +1,113 @@
+*{
+    font-family: "Plus Jakarta Sans";
+}
+.Contact_us_btn{
+    background-color: #72B944;
+    /* width: 140px; */
+    font-size: 18px;
+    padding: 8px 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.nav-link{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    margin: 3px 8px;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 10px;
+}
+
+
+.hero_Container{
+    /* height: 100vh; */
+    width: 100vw;
+    background-image: linear-gradient(rgba(224, 222, 247, 1),rgba(224, 222, 247, 0));
+}
+
+.hero_section_sideimg{
+    width:550px;
+}
+
+.herosectioncontent{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.herosectionparacontent{
+    max-width: 400px;
+    font-size: 18px;
+}
+#colour{
+    color: #72B944;
+}
+
+.box{
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sellbuybtn{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #72B944;
+    margin: 0px;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.sellbuybtn.active{
+    border-bottom: 2px solid #72B944;
+}
+
+.accordion{
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.herobtn{
+    padding: 5px 15px;
+    background-color: #72B944;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+.servicecard{
+    width: 220px;
+}
+
+@media screen and (max-width:1200px) {
+    .hero_section_sideimg{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .herobtn{
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .herosectioncontent{
+        font-size: 50px;
+        margin-top: 50px;
+        /* font-weight: bolder; */
+    }
+}
